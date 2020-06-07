@@ -5,7 +5,6 @@ This is a test application I wrote to demonstrate:
 * APIs
 * JSON
 * Retrofit
-* Guice
 * Gson
 * Mockito
 * Swing
