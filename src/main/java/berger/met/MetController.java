@@ -118,8 +118,9 @@ public class MetController
 
         try
         {
-            URL url = new URL(feed.primaryImageSmall);
+            URL url = new URL(feed.primaryImage);
             Image image = ImageIO.read(url);
+            image = image.getScaledInstance(250,250,Image.SCALE_SMOOTH);
             picture.setIcon(new ImageIcon(image));
         } catch (Exception e)
         {
