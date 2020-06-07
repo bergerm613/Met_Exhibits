@@ -16,7 +16,7 @@ You can check out the API documentation information [here](https://metmuseum.git
 
 And find a downloadable jar file for this application [here](build/libs/Met_Exhibits-1.0-SNAPSHOT.jar)
 
-###Functionality
+### Functionality
 A department can be chosen from the dropdown.
 Specific pieces of art can then be viewed, as well as additional information about them.
 
